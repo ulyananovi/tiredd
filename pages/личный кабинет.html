@@ -22,7 +22,7 @@
                 </div>
                 <div class="menujust">
                     <img src="../assets/images/главная2.svg" class="icon">
-                    <p>Лента</p>
+                    <p><a href="../pages/блоги по тематике.html" style=" color: white; text-decoration: none;">Лента</a></p>
                 </div>
                 <div class="menujust">
                     <img src="../assets/images/уведломение2.svg" class="icon">
@@ -30,7 +30,7 @@
                 </div>
                 <div class="menujust">
                     <img src="../assets/images/мессенджер2.svg" class="icon">
-                    <p>Мессенджер</p>
+                    <p><a href="../pages/мессенджер.html" style=" color: white; text-decoration: none;">Мессенджер</a></p>
                 </div>
                 <div class="menujust">
                     <img src="../assets/images/информация2.svg" class="icon">
@@ -39,7 +39,7 @@
 
                 <div class="exit">
                     <img src="../assets/images/выход.svg" class="icon">
-                    <p>Выход</p>
+                    <p><a href="../index.html" style=" color: white; text-decoration: none;">Выход</a></p>
                 </div>
             </div>
         </div>
@@ -103,9 +103,21 @@
                         </div>
                         <div class="imagewithcom">
                             <img src="../assets/images/пост для личного.jpg" class="photo-post">
-                            <div class="like">
-                                <img class="like-button" onclick="addLike()" src="../assets/images/лайк.svg" alt="Не залайкано">
-                                <span id="like-count">19</span>
+                            <div class="list-icon">
+                                <div class="like">
+                                    <img class="like-button" onclick="addLike()" src="../assets/images/лайк.svg" alt="Не залайкано">
+                                    <span id="like-count">5</span>
+                                </div>
+                                <div>
+                                    <img class="like-button" src="../assets/images/коммент.svg">
+                                </div>
+                                <div>
+                                    <img class="like-button" src="../assets/images/поделиться.svg">
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <input class="comment-style" type="text" placeholder="Оставьте свой коммент">
+                                <button class="buttonnn">Отправить</button>
                             </div>
                         </div>
                     </div>
