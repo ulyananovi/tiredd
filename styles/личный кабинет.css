@@ -1,0 +1,400 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bounded;
+    src:url(../assets/fonts/Bounded-Regular.ttf)
+}
+
+body {
+    background-image: url(../assets/images/фон\ для\ компьютера.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-name {
+    display: none;
+}
+
+.icon {
+    width: 30px;
+}
+
+.menustolb {
+    font-family: Bounded;
+    color: white;
+    margin-top: 60px;
+}
+
+.menusvetit {
+    color: #29E7C5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.menujust {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 12px;
+}
+
+.exit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 350px;
+    gap: 12px;
+}
+
+
+.menu1 {
+    width: 321px;
+    height: 729px;
+    background: #091428;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #29E7C5;
+}
+
+.acc {
+    background: rgba(9, 20, 40, 0.65);
+    height: 243px;
+    width: 1100px;
+    padding: 20px;
+    backdrop-filter: blur(16px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pfp {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text {
+    font-family: Bounded;
+    color: white;
+    padding-left: 30px;
+}
+
+.fio {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.little-text {
+    padding-top: 20px;
+    font-size: 12px;
+    color: #9E9D9D;
+}
+
+.profile {
+    padding-top: 20px;
+}
+
+.online {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-size: 14px;
+    color: #29E7C5;
+}
+
+.pencil {
+    width: 20px;
+}
+
+.frienddd {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.friends {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.chifr {
+    color: #29E7C5;
+}
+
+.mypost {
+    background: rgba(9, 20, 40, 0.65);
+    height: 698px;
+    width: 750px;
+    padding: 20px;
+    backdrop-filter: blur(16px);
+    margin-top: 20px;
+}
+
+.pfp1 {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+
+.text-info {
+    font-family: Bounded;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.pfpwname {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.fio-text {
+    font-size: 15px;
+}
+
+.datatext {
+    font-size: 10px;
+    color: #9E9D9D;
+}
+
+.photo-post {
+    margin-top: 15px;
+    width: 400px;
+}
+
+.like-button {
+    width: 22px;
+}
+
+.like {
+    font-family: Bounded;
+    color: #29E7C5;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.news {
+    background: rgba(9, 20, 40, 0.65);
+    height: 190px;
+    width: 750px;
+    padding: 20px;
+    backdrop-filter: blur(16px);
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.com-style {
+    background: none;
+    border: 2px solid #29E7C5;
+    border-radius: 15px;
+    padding: 0 20px;
+    width: 630px;
+    height: 100px;
+    color: #29E7C5;
+    font-size: 16px;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+.com-style::placeholder {
+    color: #29E7C5;
+    text-align: start;
+    font-size: 16px;
+}
+
+.com-button {
+    font-family: Bounded;
+    background: #29E7C5;
+    width: 205px;
+    height: 38px;
+    border-radius: 20px;
+    font-size: 12px;
+    align-self: end;
+    cursor: pointer;
+    border: none;
+}
+
+.com-button:hover {
+    background: white;
+}
+
+.com {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.svoipost {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .logo-name {
+        display: flex;
+        color: #29E7C5;
+        font-family: Bounded;
+        margin-bottom: 20px;
+    }
+    .menu1 {
+        display: none;
+    }
+
+    .acc {
+        height: 295px;
+        width: 326px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fio {
+        font-size: 14pt;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 0px;
+        padding-top: 10px;
+    }
+
+    .pfp {
+        width: 120px;
+        margin-top: 20px;
+    }
+
+    .text {
+        padding-left: 0px;
+    }
+    
+    .little-text {
+        font-size: 10px;
+        color: #9E9D9D;
+        text-align: center;
+        padding-top: 13px;
+    }
+    
+    .profile {
+        padding-top: 20px;
+    }
+    
+    .online {
+        font-size: 13px;
+        color: #29E7C5;
+        justify-content: center;
+        padding-top: 5px;
+    }
+
+    .pencil {
+        position: absolute;
+        margin-left: 280px;
+        margin-top: 3px;
+        width: 18px;
+    }
+
+    .frienddd {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 12px;
+    }
+    
+    .friends {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-top: 10px;
+        font-size: 12px;
+        margin-left: 25px;
+    }
+
+    .news {
+        height: 130px;
+        width: 326px;
+        padding: 15px;
+        backdrop-filter: blur(16px);
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .pfp1 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .com-style {
+        width: 230px;
+        height: 50px;
+        color: #29E7C5;
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+    
+    .com-style::placeholder {
+        font-size: 13px;
+    }
+    
+    .com-button {
+        width: 205px;
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .mypost {
+        height: 698px;
+        width: 326px;
+    }
+    
+    .fio-text {
+        font-size: 13px;
+    }
+    
+    .datatext {
+        font-size: 10px;
+        color: #9E9D9D;
+    }
+    
+    .photo-post {
+        margin-top: 15px;
+        width: 280px;
+    }
+
+    .like-button {
+        width: 18px;
+    }
+    
+    .like {
+        font-size: 10px;
+    }
+}

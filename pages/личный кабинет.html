@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/личный кабинет.css">
+    <script src="../scripts/личный кабинет.js"></script>
+    <title>Личный кабинет</title>
+</head>
+<body>
+<header>
+
+</header>
+<main>
+    <div class="main">
+        <div class="menu1">
+            <div class="menustolb">
+                <p class="logo">КОННЕКТ</p>
+                <div class="menusvetit">
+                    <img src="../assets/images/профиль1.svg" class="icon">
+                    <p>Профиль</p>
+                </div>
+                <div class="menujust">
+                    <img src="../assets/images/главная2.svg" class="icon">
+                    <p>Лента</p>
+                </div>
+                <div class="menujust">
+                    <img src="../assets/images/уведломение2.svg" class="icon">
+                    <p>Уведомления</p>
+                </div>
+                <div class="menujust">
+                    <img src="../assets/images/мессенджер2.svg" class="icon">
+                    <p>Мессенджер</p>
+                </div>
+                <div class="menujust">
+                    <img src="../assets/images/информация2.svg" class="icon">
+                    <p>Информация</p>
+                </div>
+
+                <div class="exit">
+                    <img src="../assets/images/выход.svg" class="icon">
+                    <p>Выход</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="profilemy">
+            <div class="profile">
+                <div class="logo-name">
+                    <p>ПРОФИЛЬ</p>
+                </div>
+                <div class="acc">
+                    <img src="../assets/images/ава для профиля.jpg" class="pfp">
+                    <div class="text">
+                        <div class="fio">
+                            <p> Новикова Ульяна Константиновна</p>
+                            <img src="../assets/images/карандаш.svg" class="pencil">
+                        </div>
+                        <div class="online">
+                            <p>Онлайн</p>
+                            <img src="../assets/images/онлайн.svg" width="15">
+                        </div>
+                        <div class="little-text">
+                            <p>Город: Ульяновск</p>
+                            <p>Дата рождения: 2 марта 2006г</p>
+                        </div>
+
+                        <div class="friends">
+                            <div class="frienddd">
+                                <p>Подписчиков</p>
+                                <p class="chifr">20</p>
+                            </div>
+                            <div class="frienddd">
+                                <p>Подписки</p>
+                                <p class="chifr">42</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="news">
+                    <div class="svoipost">
+                        <img src="../assets/images/ава для профиля.jpg" class="pfp1">
+                         <div class="com">
+                            <input class="com-style" type="text" placeholder="Расскажите о чём-нибудь!">
+                            <button class="com-button">ОПУБЛИКОВАТЬ ПОСТ</button>
+                         </div>   
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="twopost">
+                    <div class="mypost">
+                        <div class="pfpwname">
+                            <img src="../assets/images/ава для профиля.jpg" class="pfp1">
+                            <div class="text-info">
+                                <p class="fio-text">Новикова Ульяна Константиновна</p>
+                                <p class="datatext">20 января 2025 в 8:42</p>
+                            </div>
+                        </div>
+                        <div class="imagewithcom">
+                            <img src="../assets/images/пост для личного.jpg" class="photo-post">
+                            <div class="like">
+                                <img class="like-button" onclick="addLike()" src="../assets/images/лайк.svg" alt="Не залайкано">
+                                <span id="like-count">19</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+</main>
+</body>
+</html>

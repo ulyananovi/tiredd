@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bounded;
+    src:url(../assets/fonts/Bounded-Regular.ttf)
+}
+
+body {
+    background-image: url(../assets/images/фон\ для\ компьютера.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-name {
+    display: none;
+}
+
+.icon {
+    width: 30px;
+}
+
+.menustolb {
+    font-family: Bounded;
+    color: white;
+    margin-top: 60px;
+}
+
+.menusvetit {
+    color: #29E7C5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.menujust {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 12px;
+}
+
+.menu1 {
+    width: 321px;
+    height: 729px;
+    background: #091428;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #29E7C5;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.news {
+    background: rgba(9, 20, 40, 0.65);
+    height: 243px;
+    width: 1100px;
+    padding: 20px;
+    backdrop-filter: blur(16px);
+    display: flex;
+    flex-direction: row;
+}
+
+.com-style {
+    background: none;
+    border: 2px solid #29E7C5;
+    border-radius: 15px;
+    padding: 0 20px;
+    width: 960px;
+    height: 100px;
+    color: #29E7C5;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.com-style::placeholder {
+    color: #29E7C5;
+    text-align: start;
+    font-size: 16px;
+}
+
+.pfp {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.com-button {
+    font-family: Bounded;
+    background: #29E7C5;
+    width: 205px;
+    height: 38px;
+    border-radius: 20px;
+    font-size: 12px;
+    align-self: end;
+}
+
+.com {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.svoipost {
+    display: flex;
+    flex-direction: row;
+}

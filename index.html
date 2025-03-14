@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/главная.css">
+    <script src="./scripts/для формы акка.js"></script>
+    <title>title</title>
+</head>
+<body>
+    <main>
+        <div class="form">
+            <div class="account">
+                <div class="tab active" onclick="showTab('signin')">Вход</div>
+                <div class="tab" onclick="showTab('signup')">Регистрация</div>
+            </div>
+            <div class="content active" id="signin">
+                <div class="form-name">
+                    <input class="form-style"type="text"placeholder="Логин">
+                    <input class="form-style"type="password"placeholder="Введите пароль">
+                </div>
+                <div class="button-acc">
+                    <button class="but">Войти</button>
+                </div>
+            </div>
+            <div class="content" id="signup">
+                <div class="form-name">
+                    <input class="form-style"type="text" placeholder="Телефон или почта">
+                    <input class="form-style"type="password" placeholder="Введите пароль">
+                    <input class="form-style"type="password" placeholder="Потвердите пароль">
+                </div>
+                <div class="button-acc">
+                    <button class="but">Зарегистрироваться</button>
+                </div>
+                <div class="rules">
+                    <p>Продолжая регистрацию, я принимаю условия <a class="rule-style">Пользовательского соглашения</a> и <a class="rule-style">Правил социальной сети</a>.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,120 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bounded;
+    src:url(../assets/fonts/Bounded-Regular.ttf)
+}
+
+body {
+    background-image: url(../assets/images/фон\ для\ компьютера.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    height: 475px;
+    width: 430px;
+    backdrop-filter: blur(16px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: Bounded;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 1.25em;
+}
+
+.form-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.class {
+    position: absolute;
+    font-size: 11px;
+}
+
+.form-style {
+    font-size: 12px;
+    border: #29E7C5 solid;
+    background: none;
+    outline: none;
+    color: #29E7C5;
+    border-radius: 20px;
+    height: 42px;
+    width: 400px;
+    padding: 0 20px;
+}
+
+.button-acc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.but {
+    background-color: #29E7C5; 
+    color: #091428;
+    border: none;
+    padding: 15px 80px;
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: Bounded;
+    text-transform: uppercase;
+}
+
+.rules {
+    font-size: 0.625em;
+    color: #29E7C5;
+
+}
+
+.rule-style {
+text-decoration: underline;
+}
+
+.tab {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.tab.active {
+    border-bottom: 2px solid #29E7C5;
+
+}
+
+.content {
+    display: none;
+    padding: 20px;
+}
+
+.content.active {
+    display: block;
+}
+
