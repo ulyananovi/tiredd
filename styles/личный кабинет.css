@@ -147,11 +147,12 @@ body {
 
 .mypost {
     background: rgba(9, 20, 40, 0.65);
-    height: 698px;
+    height: 800px;
     width: 750px;
     padding: 20px;
     backdrop-filter: blur(16px);
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .pfp1 {
@@ -185,6 +186,7 @@ body {
 
 .photo-post {
     margin-top: 15px;
+    margin-bottom: 10px;
     width: 400px;
 }
 
@@ -258,8 +260,39 @@ body {
     flex-direction: row;
 }
 
+.list-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.comment-style {
+    width: 710px;
+    height: 50px;
+    background: none;
+    border: 2px solid #29E7C5;
+    border-radius: 15px;
+    color: #29E7C5;
+    font-size: 13px;
+    outline: none;
+    font-family: Bounded;
+}
+
+.buttonnn {
+    margin-top: 10px;
+    background: #29E7C5;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+    font-family: Bounded;
+}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+    body {
+        background-image: url(../assets/images/фон\ для\ телефона.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
     .logo-name {
         display: flex;
@@ -396,5 +429,47 @@ body {
     
     .like {
         font-size: 10px;
+    }
+
+    .comment-style {
+        width: 290px;
+        height: 50px;
+        background: none;
+        border: 2px solid #29E7C5;
+        border-radius: 15px;
+        color: #29E7C5;
+        font-size: 13px;
+        outline: none;
+        font-family: Bounded;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .menusvetit {
+        font-size: 15px;
+    }
+    
+    .menujust {
+        font-size: 10px;
+    }
+
+    .fio {
+        font-size: 20px;
+    }
+
+    .acc {
+        background: rgba(9, 20, 40, 0.65);
+        height: 243px;
+        width:750px;
+        padding: 20px;
+        backdrop-filter: blur(16px);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
